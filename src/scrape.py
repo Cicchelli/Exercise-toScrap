@@ -25,6 +25,8 @@ def scrape(url: str) -> str:
     return results
 
 # Exemplo de uso:
+
+
 livro_info = scrape(URL_BASE + "the-grand-design_405/index.html")
 
 print("Título:", livro_info[0])
